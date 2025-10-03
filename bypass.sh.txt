@@ -1,4 +1,4 @@
-TARGET="http://3.37.76.41"
+TARGET="http://victim ip"
 UPLOAD="$TARGET/upload.php"
 WEBROOT="$TARGET/uploads"
 FILENAME="shell"
