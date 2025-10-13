@@ -49,7 +49,6 @@ Suggested per-file label (optional):
 - `upload_configpeek.php` / `upload_configpeek.phtml` — upload-testing variants (used to evaluate upload handling).  
 - `ssrf_flag_hunter.py` — script to probe internal endpoints (for reconnaissance in lab).  
 - `token_hunter.sh` — helper to search/harvest tokens from accessible endpoints.  
-- `myjson-transform.py`, `teeplus.py`, `ipaddress.py`, `vtsearch.py`, `pecheck.py` — assorted analysis/util scripts (parsers, JSON transformers, tee-like file saver, IP utilities, VirusTotal search helper, PE inspection tool).  
 *(This list is only illustrative — please keep the repository's file list updated with your own descriptions and authorship.)*
 
 ---
